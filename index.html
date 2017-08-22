@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -14,14 +15,14 @@
     <table align="left">
     <tr>
         <tg align="top">
-    <h1>Welcome to my Home Page!(ノ°Д°）ノ︵ ┻━┻ </h1>
+    <h1 style="font-size:300%;"> (∩`ω´)⊃-)))))Welcome!(ノ°Д°）ノ︵ ┻━┻ </h1>
   </tr>
   <div class="small">
       <table align="left">
       <tr>
         <td align="left">
           <div class="small">
-    My name is Kailiang Wang and I am currently a Student at Damien High School in La Verne, CA. If you would like to know me more click on my About me page or if you want to check out my shitty projects go to Portfolio
+    <p style="font-size:160%;"> My name is Kailiang Wang and I am currently a Student at Damien High School in La Verne, CA. If you would like to know me more click on my About me page or if you want to check out my shitty projects go to Portfolio </p>
       </tr>
     </div>
   <footer *>
@@ -32,5 +33,22 @@
 </footer *>
     <img src="image/1.gif" height="300" width="500" align:"left">
     <img src="image/2.gif" height="300" width="500" align:"left">
+    <h1>My First Google Map</h1>
+
+<div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.12),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8ibqm2_opIDRA1Z5lnhgjNEhEnFgDaWo&callback=myMap"></script>
+
   </body>
 </html>
