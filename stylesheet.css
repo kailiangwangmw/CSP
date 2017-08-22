@@ -7,10 +7,11 @@ body{
 
 h1  {
     font-size: 2.3em;
- 	text-align: C;
-    color: white;
+ 	text-align: center;
+    color:#ff6699;
+
 }
-s
+
 table {
  	margin-left: auto;
  	margin-right: auto;
@@ -48,14 +49,14 @@ div.large {
 }
 
 div.scrollmenu {
-    background-color: #333;
+    background: linear-gradient(to bottom right, #000066 30%, #ff5050 100%);
     overflow: auto;
     white-space: nowrap;
 }
 
 div.scrollmenu a {
     display: inline-block;
-    color: white;
+    color: #ccccff;
     text-align: center;
     padding: 14px;
     text-decoration: none;
@@ -83,4 +84,32 @@ footer * {
 -ms-transform:scaleY(-1);
 -o-transform:scaleY(-1);
 transform:scaleY(-1);
+}
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+div.Container{
+    float: right;
+    display:inline-block;
 }
