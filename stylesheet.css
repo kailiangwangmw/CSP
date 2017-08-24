@@ -59,7 +59,7 @@ div.small {
 
 div.large {
     position: relative;
-    right: 530px;
+    right: 430px;
     bottom: 440px;
 }
 
@@ -96,7 +96,7 @@ div.back {
 div.fixed1 {
     position: fixed;
     bottom: 10px;
-    left: 610px;
+    left: 510px;
     width: 300px;
 
 }
