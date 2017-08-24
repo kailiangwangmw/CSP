@@ -1,13 +1,14 @@
 body{
      font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
-  background-image: url("image/7.jpg");
+  background-image: url("image/8.jpg");
+
   
 
 }
 
 h1  {
     font-size: 2.3em;
- 	text-align: center;
+    text-align: center;
     color:#ff6699;
 
 }
@@ -17,33 +18,38 @@ h2  {
     text-align: left;
     color: white;
 
+
 }
 
 table {
- 	margin-left: auto;
- 	margin-right: auto;
- 	text-align: left;
- 	border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table.1 {
+    margin-left: center;
+    margin-right: center;
+    text-align: left;
+    border-collapse: collapse;
 }
 
 
-
 tr   {
-	border: 1px solid #ffffff;
-	text-align: left;
-	background-color:#9FB6CD;
+    border: 1px solid #ffffff;
+    text-align: left;
+    background-color:#9FB6CD;
 }
 
 th   {
     text-align: left;
-	color: #ffffff;
-	background-color: #333333;
-}
-
-tg   {
-    text-align: top;
     color: #ffffff;
     background-color: #333333;
+}
+
+td.1   {
+    text-align: top;
 }
 
 div.small {
@@ -52,7 +58,8 @@ div.small {
 }
 
 div.large {
-    vertical-align: left;
+    position: relative;
+    right: 530px;
 }
 
 div.scrollmenu {
@@ -67,6 +74,20 @@ div.scrollmenu a {
     text-align: center;
     padding: 14px;
     text-decoration: none;
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 130px;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+
+div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
 }
 
 div.scrollmenu a:hover {
@@ -85,7 +106,7 @@ transform:scaleX(-1);
 }
 
 /* undo the vertical flip for all child elements */
-footer * {
+footer.1{
 -webkit-transform:scaleY(-1);
 -moz-transform:scaleY(-1);
 -ms-transform:scaleY(-1);
